@@ -1,0 +1,8 @@
+result_dir: ./save/pre/crossdocked/char/gnn/2025_02_16_22/
+molecule_nums: 300                     
+block_size: 119                        
+top_k: 30                              
+temperature: 1
+sample_num: 1  
+sample_type: True                        
+test_dir: ./data_crossdocked/test.yaml 

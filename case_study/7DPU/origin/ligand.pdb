@@ -1,0 +1,50 @@
+CRYST1   44.258   53.798  115.062  90.00 100.96  90.00 P 1 21 1      1
+HETATM    1  C1  HER A 401      15.514  13.935  40.968  1.00 22.58           C  
+HETATM    2  O1  HER A 401      14.548  12.549  43.312  1.00 20.21           O  
+HETATM    3  C2  HER A 401      15.782  14.901  40.024  1.00 24.69           C  
+HETATM    4  O2  HER A 401      13.098   8.863  42.389  1.00 20.47           O  
+HETATM    5  C3  HER A 401      14.777  15.316  39.155  1.00 25.88           C  
+HETATM    6  O3  HER A 401      13.151  10.788  40.479  1.00 20.59           O  
+HETATM    7  C4  HER A 401      13.505  14.747  39.244  1.00 21.98           C  
+HETATM    8  O4  HER A 401      13.604   8.131  44.902  1.00 18.76           O  
+HETATM    9  C5  HER A 401      13.232  13.773  40.189  1.00 18.15           C  
+HETATM   10  O5  HER A 401      15.469  11.335  47.795  1.00 22.63           O  
+HETATM   11  C6  HER A 401      14.233  13.387  41.091  1.00 21.20           C  
+HETATM   12  O6  HER A 401      17.024  15.466  39.922  1.00 26.13           O  
+HETATM   13  C7  HER A 401      14.045  12.302  42.060  1.00 20.75           C  
+HETATM   14  O7  HER A 401      15.052  16.274  38.223  1.00 32.13           O  
+HETATM   15  C8  HER A 401      14.527  11.599  44.291  1.00 21.17           C  
+HETATM   16  O8  HER A 401      12.556  15.183  38.362  1.00 20.47           O  
+HETATM   17  C9  HER A 401      14.045  10.316  44.033  1.00 18.81           C  
+HETATM   18  C10 HER A 401      13.547   9.996  42.701  1.00 20.40           C  
+HETATM   19  C11 HER A 401      13.600  11.056  41.731  1.00 18.76           C  
+HETATM   20  C12 HER A 401      15.015  11.998  45.523  1.00 23.39           C  
+HETATM   21  C13 HER A 401      15.010  11.060  46.545  1.00 21.49           C  
+HETATM   22  C14 HER A 401      14.533   9.753  46.339  1.00 19.58           C  
+HETATM   23  C15 HER A 401      14.059   9.389  45.100  1.00 17.72           C  
+HETATM   24  C16 HER A 401      16.059  12.613  48.012  1.00 19.35           C  
+CONECT    1    3   11
+CONECT    2   13   15
+CONECT    3    1    5   12
+CONECT    4   18
+CONECT    5    3   14    7
+CONECT    6   19
+CONECT    7    5    9   16
+CONECT    8   23
+CONECT    9    7   11
+CONECT   10   21   24
+CONECT   11    9    1   13
+CONECT   12    3
+CONECT   13   11    2   19
+CONECT   14    5
+CONECT   15    2   17   20
+CONECT   16    7
+CONECT   17   15   18   23
+CONECT   18    4   17   19
+CONECT   19   13   18    6
+CONECT   20   15   21
+CONECT   21   10   20   22
+CONECT   22   21   23
+CONECT   23    8   17   22
+CONECT   24   10
+END

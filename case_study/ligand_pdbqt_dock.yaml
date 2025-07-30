@@ -1,0 +1,9 @@
+receptor_path: ./case_study/7DPU/7dpu_remove_mol.pdbqt
+ligand_pdb: ./case_study/7DPU/origin/ligand.pdb
+ligand_pdbqt: ./case_study/7DPU/origin/ligand.pdbqt
+save_dir: ./case_study/7DPU/origin/
+
+# receptor_path: ./case_study/7D5U/7d5u_remove_mol.pdbqt
+# ligand_pdb: ./case_study/7D5U/origin/ligand.pdb
+# ligand_pdbqt: ./case_study/7D5U/origin/ligand.pdbqt
+# save_dir: ./case_study/7D5U/origin/

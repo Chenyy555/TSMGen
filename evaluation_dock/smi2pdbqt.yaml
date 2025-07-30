@@ -1,0 +1,6 @@
+dataset: crossdocked   # pdbbind  crossdocked
+pocket_path: ./data_crossdocked/test.yaml  # ./data_pdbbind/test_64.yaml  # ./data_split/test_set.yaml  #  ./data_crossdocked/test.yaml
+smiles_yaml: ./save/pre/crossdocked/char/gnn/2025_02_17_09/sample_300_30_True_1_1_300508375/     
+smiles_pdb: ./dock_file_save/crossdocked/2025_02_17_09_300508375/smiles_pdb/   
+smiles_pdbqt: ./dock_file_save/crossdocked/2025_02_17_09_300508375/smiles_pdbqt/
+error_list: ./dock_file_save/crossdocked/2025_02_17_09_300508375/

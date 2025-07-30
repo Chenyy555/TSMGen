@@ -1,0 +1,12 @@
+receptor_path: ./case_study/7D5U/7d5u_remove_mol.pdbqt
+ligand_dir: ./case_study/7D5U/dock_file_save/158585049/smiles_pdbqt/
+out_path_pdbqt: ./case_study/7D5U/dock_file_save/158585049/out_pdbqt/
+out_path_sdf: ./case_study/7D5U/dock_file_save/158585049/out_sdf/
+save_prop_path: ./case_study/7D5U/dock_file_save/158585049/
+
+
+# receptor_path: ./case_study/7DPU/7dpu_remove_mol.pdbqt
+# ligand_dir: ./case_study/7DPU/dock_file_save/2258692459/smiles_pdbqt/
+# out_path_pdbqt: ./case_study/7DPU/dock_file_save/2258692459/out_pdbqt/
+# out_path_sdf: ./case_study/7DPU/dock_file_save/2258692459/out_sdf/
+# save_prop_path: ./case_study/7DPU/dock_file_save/2258692459/

@@ -1,0 +1,11 @@
+vocab: char       
+vocab_path: ./data_crossdocked/char_merged_vocab.yaml 
+smiles_dir: ./data_crossdocked/final_filter_train.yaml
+pocket_dir: /home/nic/Data/crossdock2020/crossdocked_pocket10/    
+dataset: crossdocked   
+batch_size: 32
+learning_rate: 0.0003    
+num_epoch: 30
+out_dir: ./save/
+seed: 666
+weight_decay: 0.0005    

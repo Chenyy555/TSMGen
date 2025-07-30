@@ -1,0 +1,11 @@
+,smiles,affinity_value
+7d5u_11,O=C(NCc1ccc(S(=O)(=O)C2CCN(C3CCOCC3)CC2)cc1)n1cc2ccncc2c1,-10.2
+7d5u_14,O=C(NCc1ccc(S(=O)(=O)c2cccc(C(F)(F)F)c2)cc1)C1=CC2C=NN=C2N=C1,-10.2
+7d5u_2,COc1ccc(-n2nc(C(N)=O)c3c2C(=O)N(c2ccc(N4CCCCC4=O)cc2)CC3)cc1,-9.6
+7d5u_1,CCCC(Sc1ccc(-c2ccc(C(=O)NC3CCS(=O)(=O)CC3)cc2)cc1)C(=O)O,-9.6
+7d5u_13,O=C(NCc1ccc(S(=O)(=O)c2cc(F)cc(F)c2)cc1)c1ccn2ccnc2c1,-9.5
+7d5u_15,O=C(NCc1ccc(S(=O)(=O)c2ccccc2)cc1)C1=CC2C=NC=CC2=N1,-9.4
+7d5u_22,O=C(c1cccc(-c2cccc(O)c2F)n1)c1ccc(F)c(O)c1O,-9.2
+7d5u_16,O=C(NCc1ccc(S(=O)(=O)c2ccccc2)cc1)C1=CC2C=NN=C2N=C1,-9.0
+7d5u_21,O=C(c1ccc(F)c(O)c1)c1cccc(-c2cccc(O)c2F)n1,-9.0
+7d5u_18,O=C(c1ccc(C(O)(O)C(F)(F)F)s1)N1CCn2c(-c3ccccc3)cnc2C1,-8.9

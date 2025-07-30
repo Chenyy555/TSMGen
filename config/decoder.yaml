@@ -1,0 +1,17 @@
+pretrain: true # true # false  
+pretrained_model: /home/nic/Code/HGNN-GPT/GPT-last-new/save/chembl/crossdocked/char/2024_12_26_20/val_model.pt 
+vocab_size: 48  # 54 # 48 # 48   # The size of the vocabulary list  char: 54, 48   selfies: 109
+block_size: 119   # 121
+n_embd: 256
+num_props: 0        # Whether to add protein pocket information 1,0
+n_layer: 8          # The number of layers of the GPT block
+n_head: 8
+embd_pdrop: 0.1    # GPT inputs embedded parameters
+attn_pdrop: 0.1    # The parameters of GPT attention weight
+resid_pdrop: 0.1   # The dropout parameter of GPT residuals
+sample: False       # Whether to sample during generation true或者false
+scaffold_maxlen: 0 # The length of the scaffold molecule
+use_gate: true # true 
+att_num: 1   # Only 1 and 2
+use_encoder_norm: false # false
+use_alpha: true # true

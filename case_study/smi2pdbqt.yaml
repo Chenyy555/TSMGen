@@ -1,0 +1,9 @@
+pocket_name: 7d5u
+smiles_yaml: ./case_study/7D5U/sample_300_30_True_1_1_158585049/
+smiles_pdb: ./case_study/7D5U/dock_file_save/158585049/smiles_pdb/
+smiles_pdbqt: ./case_study/7D5U/dock_file_save/158585049/smiles_pdbqt/
+error_list: ./case_study/7D5U/dock_file_save/158585049/
+# receptor_path:  ./case_study/7DPU/7dpu_remove_mol.pdbqt
+# out_path_sdf: ./case_study/7DPU/dock_file_save/2258692459/out_sdf/
+# out_path_pdbqt: ./case_study/7DPU/dock_file_save/2258692459/out_pdbqt/
+# save_prop_path: ./case_study/7DPU/dock_file_save/2258692459/dock_result/

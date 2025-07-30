@@ -1,0 +1,5 @@
+dataset: crossdocked # crossdocked    # pdbbind
+pocket_path: ./data_crossdocked/test.yaml # ./data_pdbbind/test_64.yaml  # ./data_pdbbind/test_64.yaml  # ./data_crossdocked/test.yaml   # ./data_split/test_set.yaml  #  ./data_crossdocked/test.yaml
+dock_dict_json: ./dock_file_save/crossdocked/2025_02_17_09_300508375/dock_result/dock_dict.json # ./dock_file_save/pdbbind/2025_01_09_08_1393007167/dock_result/dock_dict.json # ./dock_file_save/crossdocked/2025_01_05_20_1341818784/dock_result/dock_dict.json # ./dock_file_save/crossdocked/2024_12_27_21_702043448/dock_result/dock_dict.json
+pocket_vina_path: 
+final_result_path:
