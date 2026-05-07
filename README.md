@@ -3,3 +3,11 @@
 
 ## Overview
 ![model](./assert/model.png)
+
+
+## Installation
+
+```bash
+conda env create -f requirements.yml
+conda activate tsmgen
+```
