@@ -65,10 +65,32 @@ python train_valid_valloss.py
 
 ### 2. Molecule Sampling
 
-Run the standard sampling or case study scripts:
+Generate molecules using the standard sampling script:
 ```bash
 python sample.py
-# Or for case studies
+```
+
+
+### 3. Docking & Evaluation Pipeline
+We provide a complete pipeline in the ```evaluation_dock/``` folder to evaluate the generated molecules:
+#### 1.Format Conversion: 
+Convert SMILES to PDBQT format using ```smiles2pdbqt.py``` 
+#### 2.Molecular Docking: 
+Run QVina docking using ```dock_qvina.py``` . Docking results will be saved in ```dock_file_save/``` under a timestamped folder.
+#### 3.Metrics Analysis:
+
+Calculate the high-affinity ratio: ```python get_high_affintiy.py```
+Calculate the mean affinity value: ```python get_vina_mean.py```
+
+### 4.Case Study ($\beta$-secretase)
+
+To reproduce the case study or run generation on specific proteins:
+#### 1.Download the target proteins from the [RCSB PDB website](https://www.rcsb.org/).
+#### 2.Use PyMOL to remove water molecules.
+#### 3.Convert the cleaned proteins to ```PDBQT``` format using OpenBabel.
+#### 4.Update parameters in ```config/sample_casestudy.yaml```.
+#### 5.Run the case study generation script:
+```bash
 python sample_casestudy.py
 ```
 
