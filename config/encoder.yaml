@@ -1,8 +1,8 @@
 pocket_sequence: false # false  # true
 cross_attention: false
 encoder_Train:
-  GNN: true   
-  HGNN: false 
+  GNN: GAT   
+  HGNN: true 
 encoder_GAT:
   num_features: 8  
   hid_dim: 256     

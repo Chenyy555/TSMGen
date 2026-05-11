@@ -18,8 +18,10 @@ conda activate tsmgen
 ```
 
 ## Dataset
+### 1.Download dataset
 The dataset used for training TSMGen is [CrossDocked](https://drive.google.com/drive/folders/1CzwxmTpjbrt83z_wBzcQncq84OVDPurM).
 
+### 2.
 
 ## Reference
 ```bib

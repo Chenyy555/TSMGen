@@ -121,9 +121,9 @@ if __name__ == "__main__":
 
     # dataloaders
     batch_size = train_config['batch_size']
-    num_workers = os.cpu_count()
-    num_workers = int(min(batch_size, num_workers))
-    # num_workers = 10
+    # num_workers = os.cpu_count()
+    # num_workers = int(min(batch_size, num_workers))
+    num_workers = 16
     print('number of workers to load data: ', num_workers)
 
     trainloader, train_size, train_max_len = datapair_loader(

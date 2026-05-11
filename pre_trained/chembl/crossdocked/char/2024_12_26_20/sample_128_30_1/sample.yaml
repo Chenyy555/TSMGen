@@ -1,0 +1,12 @@
+!!python/object:model.GPTConfig
+block_size: 92
+lstm: false
+lstm_layers: 0
+n_embd: 256
+n_head: 8
+n_layer: 8
+num_props: 0
+sample: true
+scaffold: null
+scaffold_maxlen: 0
+vocab_size: 48

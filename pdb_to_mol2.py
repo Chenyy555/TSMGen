@@ -22,14 +22,13 @@ def convertmol2(input_file,output_file):
 error_list=[]
 
 train_dir='./data_crossdocked/test.yaml'
-train_dir='data_pdbbind/pocket-smiles.yaml'
+
 with open(train_dir, 'r') as f:
     train_config = yaml.full_load(f)
 
 pockets = list(train_config.keys())
 
-pocket_dir = '/home/nic/Data/v2020-other-PL/'
-# pocket_dir = '/home/nic/Data/crossdock2020/crossdocked_pocket10/'
+pocket_dir = '/home/nic/Data/crossdock2020/crossdocked_pocket10/'
 
 for pocket in pockets:
     input_dir = pocket_dir + pocket + '/' + pocket + '_pocket.pdb'
