@@ -26,6 +26,11 @@ Unzip to a suitable location:
 unzip crossdocked_pocket10_mol2.zip -d /path/to/your/desired/location
 ```
 
+## Model Training
+
+```bash
+python train_valid_valloss.py
+```
 
 ## Citation
 ```bib
