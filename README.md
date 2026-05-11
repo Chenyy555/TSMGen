@@ -30,7 +30,7 @@ The model is trained on the CrossDocked dataset.
 
 ### 1.Download the dataset:
 
-Link: [CrossDocked](https://drive.google.com/file/d/1BTbuD45VBkBoPAVdNNthdzq1f2D1sAjP/view?usp=sharing).
+Download  [here](https://drive.google.com/file/d/1BTbuD45VBkBoPAVdNNthdzq1f2D1sAjP/view?usp=sharing).
 
 ### 2.Extract it to your preferred location:
 
@@ -43,8 +43,8 @@ unzip crossdocked_pocket10_mol2.zip -d /path/to/your/desired/location
 
 Update the data path in the training configuration file (`config/train.yaml`):
 ```yaml
-   # config/train.yaml
-   pocket_dir: /path/to/your/desired/location
+# config/train.yaml
+pocket_dir: /path/to/your/desired/location
 ```
 
 ## Configuration
@@ -73,23 +73,24 @@ python sample.py
 
 ### 3. Docking & Evaluation Pipeline
 We provide a complete pipeline in the ```evaluation_dock/``` folder to evaluate the generated molecules:
-#### 1.Format Conversion: 
+1. **Format Conversion:** 
 Convert SMILES to PDBQT format using ```smiles2pdbqt.py``` 
-#### 2.Molecular Docking: 
+2. **Molecular Docking:**
 Run QVina docking using ```dock_qvina.py``` . Docking results will be saved in ```dock_file_save/``` under a timestamped folder.
-#### 3.Metrics Analysis:
+3. **Metrics Analysis:**
+   1. Calculate the high-affinity ratio: `python get_high_affintiy.py`
+   2. Calculate the mean affinity value: `python get_vina_mean.py`
 
-Calculate the high-affinity ratio: ```python get_high_affintiy.py```
-Calculate the mean affinity value: ```python get_vina_mean.py```
 
-### 4.Case Study ($\beta$-secretase)
+
+### 4. Case Study ($\beta$-secretase)
 
 To reproduce the case study or run generation on specific proteins:
-#### 1.Download the target proteins from the [RCSB PDB website](https://www.rcsb.org/).
-#### 2.Use PyMOL to remove water molecules.
-#### 3.Convert the cleaned proteins to ```PDBQT``` format using OpenBabel.
-#### 4.Update parameters in ```config/sample_casestudy.yaml```.
-#### 5.Run the case study generation script:
+1. **Download the target proteins from the [RCSB PDB website](https://www.rcsb.org/).
+2. Use PyMOL to remove water molecules.
+3 .Convert the cleaned proteins to ```PDBQT``` format using OpenBabel.
+4. Update parameters in ```config/sample_casestudy.yaml```.
+5. Run the case study generation script:
 ```bash
 python sample_casestudy.py
 ```
