@@ -88,7 +88,7 @@ Run QVina docking using ```dock_qvina.py``` . Docking results will be saved in `
 ### 4. Case Study ($\beta$-secretase)
 
 To reproduce the case study or run generation on specific proteins:
-1. **Download the target proteins from the [RCSB PDB website](https://www.rcsb.org/).
+1. Download the target proteins from the [RCSB PDB website](https://www.rcsb.org/).
 2. Use PyMOL to remove water molecules.
 3. Convert the cleaned proteins to ```PDBQT``` format using OpenBabel.
 4. Update parameters in ```config/sample_casestudy.yaml```.
