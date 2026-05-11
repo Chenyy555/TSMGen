@@ -43,3 +43,4 @@ print(len(error_list))
 
 # obabel -ipdb /home/nic/Data/crossdock2020/crossdocked_pocket10/YUIC_BACSU_56_218_0/4wlk_B_rec_4wlk_3ql_lig_tt_min_0_pocket10.pdb -omol2 ligand
 # obabel -ipdb 7d5u_remove_mol.pdb -O 7d5u_remove_mol.mol2
+
