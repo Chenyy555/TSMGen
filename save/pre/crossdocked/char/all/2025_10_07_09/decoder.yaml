@@ -1,0 +1,17 @@
+att_num: 1
+attn_pdrop: 0.1
+block_size: 92
+embd_pdrop: 0.1
+n_embd: 256
+n_head: 8
+n_layer: 8
+num_props: 1
+pretrain: true
+pretrained_model: /home/cyy/workspace/HGNN-GPT-last-new-2/pre-trained/chembl/crossdocked/char/2025_09_23_18/val_model.pt
+resid_pdrop: 0.1
+sample: false
+scaffold_maxlen: 0
+use_alpha: true
+use_encoder_norm: false
+use_gate: true
+vocab_size: 48

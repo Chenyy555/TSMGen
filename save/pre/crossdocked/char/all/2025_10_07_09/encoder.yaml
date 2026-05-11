@@ -1,0 +1,31 @@
+HGNN_first_hyperedge:
+  W_matrix: false
+  hidden_size: 256
+  num_features: 31
+  out_size: 128
+  sequence_edge: false
+  space_edge: true
+cross_attention: false
+encoder_GAT:
+  graph_pool: set2set
+  hid_dim: 256
+  in_head: 8
+  num_features: 8
+  out_size: 128
+encoder_HGNN:
+  W_matrix: false
+  amino_hyperedge: true
+  first_hyperedge: true
+encoder_Train:
+  GNN: GAT
+  HGNN: true
+features_to_use:
+- x
+- y
+- z
+- r
+- theta
+- phi
+- hydrophobicity
+- binding_probability
+pocket_sequence: false
