@@ -14,11 +14,21 @@ Efficiently designing high-quality molecules targeting disease-relevant targets 
 
 
 ## ⚙️ Installation
-### 1. GPU environment
 
-CUDA 11.3
+### 1. Hardware & Environment Requirements
 
-### 2.create a new conda environment
+The code has been developed and tested on the following hardware configuration:
+
+| Component | Specification |
+| :--- | :--- |
+| **Operating System** | Ubuntu 20.04 |
+| **GPU** | NVIDIA GeForce RTX 3090 (24GB VRAM) |
+| **CUDA Version** | 11.3 |
+| **Memory (RAM)** | 64 GB |
+
+---
+
+### 2. Create a new conda environment
 ```bash
 conda env create -f requirements.yml
 conda activate tsmgen
@@ -28,11 +38,11 @@ conda activate tsmgen
 
 The model is trained on the CrossDocked dataset.
 
-### 1.Download the dataset:
+### 1. Download the dataset:
 
 Download  [here](https://drive.google.com/file/d/1BTbuD45VBkBoPAVdNNthdzq1f2D1sAjP/view?usp=sharing).
 
-### 2.Extract it to your preferred location:
+### 2. Extract it to your preferred location:
 
 Unzip the file to a suitable location on your machine:
 ```bash
@@ -49,7 +59,7 @@ pocket_dir: /path/to/your/desired/location
 
 
 ## 🚀 Usage
-### 1.Model Training
+### 1. Model Training
 To start training the model, simply run:
 ```bash
 python train_valid_valloss.py
