@@ -1,7 +1,0 @@
-pocket_path: ./data_pdbbind/dock/test_set.yaml
-pocket_pdbqt: ./data_pdbbind/dock/pocket_pdbqt/
-ligand_pdbqt: ./data_pdbbind/dock/ligand_pdbqt/
-log_path:  
-out_path_pdbqt:  ./data_pdbbind/dock/out_pdbqt/ 
-out_path_sdf: ./data_pdbbind/dock/out_sdf/
-save_prop_path: ./data_pdbbind/dock/dock_protein_center/   
