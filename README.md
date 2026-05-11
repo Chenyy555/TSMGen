@@ -26,12 +26,15 @@ Unzip to a suitable location:
 unzip crossdocked_pocket10_mol2.zip -d /path/to/your/desired/location
 ```
 
+
+## Configuration
 Open `config/train.yaml` and update the `pocket_dir` to your desired location:
 
 ```yaml
 # config/train.yaml
 pocket_dir: /path/to/your/desired/location
 ```
+
 
 ## Model Training
 
