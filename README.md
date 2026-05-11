@@ -34,7 +34,7 @@ python train_valid_valloss.py
 
 ## Citation
 ```bib
-@inproceedings{chen2026TSMgen,
+@inproceedings{chen2026tsmgen,
   title={TSMGen: Target-Specific Molecule Generation via Higher-Order Structural Dependencies and Context-Aware Bidirectional Fusion},
   author={Chen,Yaoyu and Lin, Xiaoli and Gong, Ziyi and Pang, Jun},
   booktitle={Proceedings of the International Conference on Machine Learning},
