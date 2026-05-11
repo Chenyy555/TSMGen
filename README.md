@@ -22,7 +22,12 @@ conda activate tsmgen
 The dataset used for training TSMGen is [CrossDocked](https://drive.google.com/file/d/1BTbuD45VBkBoPAVdNNthdzq1f2D1sAjP/view?usp=sharing).
 
 
-## Reference
+## Citation
 ```bib
-
+@inproceedings{chen2026TSMgen,
+  title={TSMGen: Target-Specific Molecule Generation via Higher-Order Structural Dependencies and Context-Aware Bidirectional Fusion},
+  author={Chen,Yaoyu and Lin, Xiaoli and Gong, Ziyi and Pang, Jun},
+  booktitle={Proceedings of the International Conference on Machine Learning},
+  year={2026}
+}
 ```
