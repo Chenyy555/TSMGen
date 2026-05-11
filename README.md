@@ -9,6 +9,7 @@ Efficiently designing high-quality molecules targeting disease-relevant targets 
 
 ## Installation
 ### 1. GPU environment
+NVIDIA GeForce RTX 3090 24G VRAM
 CUDA 11.3
 
 ### 2.create a new conda environment
