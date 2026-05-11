@@ -47,14 +47,6 @@ Update the data path in the training configuration file (`config/train.yaml`):
 pocket_dir: /path/to/your/desired/location
 ```
 
-## Configuration
-Open `config/train.yaml` and update the `pocket_dir` to your desired location:
-
-```yaml
-# config/train.yaml
-pocket_dir: /path/to/your/desired/location
-```
-
 
 ## 🚀 Usage
 ### 1.Model Training
@@ -110,31 +102,6 @@ TSMGen/
 └── save/              # Saved model checkpoints, parameters, and sampling data
 ```
 
-The folder names for docking results are timestamped to distinguish between different runs.
-
-
-* **`case_study`**: For case studies.
-    * Configuration parameters are in `config/sample_casestudy.yaml`. Run `sample_casestudy.py` to generate molecules.
-    * Download proteins with PDB IDs `7d5u` and `7dpu` from the RCSB PDB website.
-    * Use PyMOL to remove water molecules.
-    * Convert to PDBQT format using OpenBabel (or manually).
-    * Use the docking files in this folder, modify the configuration, and perform docking.
-* **`config`**: Configuration folder.
-* **`dock_file_save`**: Stores various files saved during the docking process. Folder names are timestamped.
-* **`save`**: Stores the models saved after training, including their corresponding parameters. Data from subsequent sampling is also saved here. Docking results are saved in `dock_file_save`.
-* **`evaluation_dock`**: Contains files for docking evaluation, including PDBQT conversion, docking, and analysis.
-    * Workflow: Convert to PDBQT → Dock → Analyze high-affinity ratio and mean value.
-    * `smiles2pdbqt.py`: Converts SMILES to PDBQT.
-        * `smiles2pdbqt.yaml`: Corresponding configuration file.
-    * `dock_qvina.py`: Performs docking.
-        * `dock.yaml`: Corresponding parameter file.
-    * `dock_qvina_only_result.py`: Extracts only the docking results (generally not used).
-    * `get_high_affintiy.py`: Calculates the high-affinity ratio.
-    * `get_vina_mean.py`: Calculates the mean affinity value.
-* **`figure`**: Folder for storing images.
-* **`generate`**: Utility files for sampling.
-* **`metrics`**: Toolkit for evaluation metrics, such as the SA score.
-* **`model`**: Contains the encoder, decoder, and other model components.
 
 
 ## 📝 Citation
