@@ -24,14 +24,28 @@ conda env create -f requirements.yml
 conda activate tsmgen
 ```
 
-## Dataset
-The dataset used for training TSMGen is [CrossDocked](https://drive.google.com/file/d/1BTbuD45VBkBoPAVdNNthdzq1f2D1sAjP/view?usp=sharing).
+## 📂 Dataset
+
+The model is trained on the CrossDocked dataset.
+
+### 1.Download the dataset:
+
+Link: [CrossDocked](https://drive.google.com/file/d/1BTbuD45VBkBoPAVdNNthdzq1f2D1sAjP/view?usp=sharing).
+
+### 2.Extract it to your preferred location:
 
 Unzip the file to a suitable location on your machine:
 ```bash
 unzip crossdocked_pocket10_mol2.zip -d /path/to/your/desired/location
 ```
 
+### 3.Update the data path:
+
+Update the data path in the training configuration file (`config/train.yaml`):
+```yaml
+   # config/train.yaml
+   pocket_dir: /path/to/your/desired/location
+```
 
 ## Configuration
 Open `config/train.yaml` and update the `pocket_dir` to your desired location:
@@ -42,15 +56,14 @@ pocket_dir: /path/to/your/desired/location
 ```
 
 
-## Model Training
-
-Run the training script:
+## 🚀 Usage
+### 1.Model Training
+To start training the model, simply run:
 ```bash
 python train_valid_valloss.py
 ```
 
-
-## Sampling
+### 2. Molecule Sampling
 
 Run the standard sampling or case study scripts:
 ```bash
@@ -89,7 +102,8 @@ The folder names for docking results are timestamped to distinguish between diff
 * **`model`**: Contains the encoder, decoder, and other model components.
 
 
-## Citation
+## 📝 Citation
+If you find our work helpful in your research, please cite our paper:
 ```bib
 @inproceedings{chen2026tsmgen,
   title={TSMGen: Target-Specific Molecule Generation via Higher-Order Structural Dependencies and Context-Aware Bidirectional Fusion},
