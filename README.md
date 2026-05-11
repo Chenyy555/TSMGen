@@ -73,7 +73,19 @@ python sample_casestudy.py
 ```
 
 
-## Folder Structure
+## 🗂️ Folder Structure  
+```bash
+TSMGen/
+├── case_study/        # Case study configurations and specific docking files
+├── config/            # YAML configuration files for training, sampling, etc.
+├── dock_file_save/    # Auto-generated docking results (timestamped folders)
+├── evaluation_dock/   # Docking evaluation pipeline (PDBQT conversion, QVina, analysis scripts)
+├── figure/            # Images and visual assets
+├── generate/          # Utility scripts for the molecular sampling process
+├── metrics/           # Evaluation metric toolkits (e.g., SA score)
+├── model/             # Core architecture (Encoder, Decoder, and Fusion modules)
+└── save/              # Saved model checkpoints, parameters, and sampling data
+```
 
 The folder names for docking results are timestamped to distinguish between different runs.
 
