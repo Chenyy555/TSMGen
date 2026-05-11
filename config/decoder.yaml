@@ -1,7 +1,7 @@
 pretrain: true # true # false  
 pretrained_model: pre_trained/chembl/crossdocked/char/2024_12_26_20/val_model.pt 
-vocab_size: 48  # 54 # 48 # 48   # The size of the vocabulary list  char: 54, 48   selfies: 109
-block_size: 92   # 121
+vocab_size: 48   # The size of the vocabulary list  char: 54, 48   selfies: 109
+block_size: 92   
 n_embd: 256
 num_props: 1        # Whether to add protein pocket information 1,0
 n_layer: 8          # The number of layers of the GPT block
