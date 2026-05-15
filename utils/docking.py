@@ -1,11 +1,3 @@
-'''
-Author: QHGG
-Date: 2021-08-02 22:46:25
-LastEditTime: 2022-08-22 15:58:57
-LastEditors: QHGG
-Description: 
-FilePath: /AlphaDrug/utils/docking.py
-'''
 import os
 import subprocess
 import re
