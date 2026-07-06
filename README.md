@@ -117,10 +117,9 @@ TSMGen/
 ## 📝 Citation
 If you find our work helpful in your research, please cite our paper:
 ```bib
-@inproceedings{chen2026tsmgen,
+@inproceedings{chentsmgen,
   title={TSMGen: Target-Specific Molecule Generation via Higher-Order Structural Dependencies and Context-Aware Bidirectional Fusion},
   author={Chen, Yaoyu and Lin, Xiaoli and Gong, Ziyi and Pang, Jun},
-  booktitle={Proceedings of the International Conference on Machine Learning},
-  year={2026}
+  booktitle={Forty-third International Conference on Machine Learning}
 }
 ```
